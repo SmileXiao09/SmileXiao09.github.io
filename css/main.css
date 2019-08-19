@@ -107,6 +107,30 @@ img{border: none;}
   transition:all 300ms ease;  
 }
 
+
+.flexslider {
+  margin-top: 114px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.flexslider .slides {
+  zoom: 1;
+}
+
+flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+
 .search{float: right;position: relative}
 .SearchBtn{
   width: 79px;
