@@ -90,6 +90,23 @@ img{border: none;}
   float: left;
   margin-top: 15px;
 }
+
+.logo-box{
+  position:relative;
+  float:left;
+  left:0px;
+  z-index:10; 
+}
+.logo-img img{
+  display:inline-block;
+  max-width:100%;
+  -webkit-transition:all 300ms ease;
+  -ms-transition:all 300ms ease;
+  -o-transition:all 300ms ease;
+  -moz-transition:all 300ms ease;
+  transition:all 300ms ease;  
+}
+
 .search{float: right;position: relative}
 .SearchBtn{
   width: 79px;
